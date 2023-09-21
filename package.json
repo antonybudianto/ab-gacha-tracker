@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.3",
+    "downloadjs": "1.4.7",
+    "html-to-image": "1.11.11"
+  },
+  "devDependencies": {
+    "postcss": "*",
+    "autoprefixer": "*",
+    "@nuxtjs/tailwindcss": "^6",
+    "nuxt": "3.0.0"
+  }
+}
