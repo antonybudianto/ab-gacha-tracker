@@ -119,7 +119,8 @@
                   ? 0
                   : Math.round(
                       100 *
-                        (totalPulls / data.length - (includeLastEntry ? 1 : 0))
+                        (totalPulls /
+                          (data.length - (!includeLastEntry ? 1 : 0)))
                     ) / 100
               }}
               pulls
